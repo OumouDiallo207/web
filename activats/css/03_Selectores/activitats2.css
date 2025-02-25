@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-    <link rel="atylesheart" href ="activitats2.css"
-    </head>
-    <body>
-	<p><h1> Mi lista de la compra</h1><p/>
-    <ul> 
-    <li>Agua</li>
-    <li class="rojo">manzanas</li>
-    <li>Galletas</li>
-    <li> class ="amarillo">platanos<li/>
-    <li> class="verde">manzana<li/>
-</ul>
-	
-	
-    </body>
-</html>
+.fuego {
+    color:orangered
+    
+}
+.Azul {
+    color:blue
+    
+}
