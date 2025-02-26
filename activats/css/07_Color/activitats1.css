@@ -1,4 +1,16 @@
-.color1{
-    color: red;
-    background-color: blue;
+
+
+.amarillo{
+    color: yellowgreen;
+}
+
+.caja{
+    opacity: 0.8;
+}
+
+.textito {
+    color: purple; 
+}
+.caja{
+    background: blue;
 }
