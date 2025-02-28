@@ -1,0 +1,20 @@
+strong {
+    text-decoration: underline; 
+    text-decoration-thickness: 2px; 
+    text-decoration-skip-ink: none; 
+    position: relative;
+  }
+  
+  strong::before, strong::after {
+    content: "";
+    width: 15px; 
+    height: 5px;
+    background-color: black; 
+  }
+  strong::before {
+    left: 10px; 
+  }
+  
+  strong::after {
+    right: -10px; 
+  }
