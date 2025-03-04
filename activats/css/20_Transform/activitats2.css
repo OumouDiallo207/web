@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.actividad {
+    background: white;
+    padding: 15px;
+    border-left: 5px solid orange;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: orange;
+    margin: 0;
+}
+.modal {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+.modal:hover {
+    transform: scale(2);
+}
