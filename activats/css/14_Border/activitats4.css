@@ -1,0 +1,9 @@
+.gradient-border {
+    border: 6px solid;
+    border-image-source: linear-gradient(to bottom, cyan, red);
+    border-image-slice: 1;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    padding: 10px;
+}
