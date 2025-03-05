@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Buscador">
+        <h2> Buscar Smartphones</h2>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" list="marcas" placeholder="Elige tu marca">
+
+        <datalist id="Marcas">
+        <option value="xiaomi">
+        <option value="Samsung">
+        <option value="Huawei">
+        <option value="Sony">
+        <option value= "Apple">
+        <option value="Redmi">
+         </datalist>
+
+         <label for="precio"> Rango de precio :</label>
+         <select id="precio"name="precio">
+           <option value="0-100">Menos de $100</option>
+           <option value="100-300"> $100-$300</option>
+           <option value="300-500"> $300-$500</option>
+           <option value="500-1000"> $500-$1000</option>
+           <option value="1000+"> Más de 1000</option>
+           </select>
+       <button type="button">Buscar</button>
+    </div>
+        
+</body>
+</html>

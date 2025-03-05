@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Buscar cámaras de fotos </h1>
+    <form action ="buscar_camaras de fotos" method="get">
+        <label for ="marca" >Marca:</label>
+        <select name="Marca" id="marca">
+            <option value="seleccionar">Seleccionar</option>
+            <option value="Fujifilm">Fujifilm</option>
+            <option value="Full frame">Full frame</option>
+            <option value="Nikon">Nikon</option>
+            <option value="sony">sony</option>
+        </select>
+    <br><br>
+
+
+    <label for ="tipo" >Tipo de cameras:</label>
+    <select name="tipo" id="tipo">
+        <option value="seleccionar">Seleccionar</option>
+        <option value="mirroless">Mirroless</option>
+        <option value="dslr">DSLR</option>
+        <option value="compacta">Nikon</option>
+    </select>
+     <br><br>
+
+     <label for="precio_minimo"> Precio Mínimo</label>
+     <input type="number" name="precio minimo" id="precio_minimo" placeholder="10">
+    <br><br>
+
+     <label for="precio_maximo"> Precio Maximo</label>
+     <input type="number" name="precio_maximo" id="precio_maximo" placeholder="10">
+    <br><br>
+     <label for="resolucion"> resolucion  Mínimo (HP):</label>
+     <input type="number" name="resolucion" id="resolucion" placeholder="12">  
+     <br><br>
+
+    <button type="submit">Buscar_camaras</button>
+    
+
+
+
+</body>
+</html>

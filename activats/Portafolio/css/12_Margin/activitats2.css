@@ -1,0 +1,46 @@
+.contenedor {
+    width: 60%;
+    padding: 40px;
+    border: 2px solid orange;
+    background-color: white;
+    text-align: center;
+}
+
+.alerta {
+    background-color: #d3e0dc;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.alerta a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.titulo {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.texto {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+}
+
+.boton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: black;
+    color: white;
+}
