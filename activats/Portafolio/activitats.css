@@ -91,14 +91,14 @@ body {
 
 .seccio {
     margin-bottom: 80px;
-    background-color: #e0f7fa; /* Blau clar */
+    background-color: #e0f7fa; 
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .taula-activitats {
-    border: 2px solid #6a11cb; /* Vora morada */
+    border: 2px solid #6a11cb; 
     border-radius: 10px;
     padding: 30px;
     text-align: center;
