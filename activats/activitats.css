@@ -1,0 +1,145 @@
+header {
+    background: linear-gradient(to right, #7b61ff, #b76cff);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.contenidor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.capçalera {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.principal {
+    padding: 80px 0;
+}
+
+.seccio {
+    margin-bottom: 80px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.contenidor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.capçalera {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.principal {
+    padding: 80px 0;
+}
+
+.seccio {
+    margin-bottom: 80px;
+    background-color: #e0f7fa; 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.taula-activitats {
+    border: 2px solid #6a11cb; 
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.taula-activitats h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.taula-activitats p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.taula-activitats ul {
+    list-style: none;
+    padding: 0;
+}
+
+.taula-activitats li {
+    font-size: 1.1em;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.taula-activitats li:last-child {
+    border-bottom: none;
+}
+
+.taula-activitats a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.taula-activitats a:hover {
+    text-decoration: underline;
+}
+
