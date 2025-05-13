@@ -1,80 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Document</title>
     <link rel="stylesheet" href="calculadora.css">
 </head>
 <body>
-    <div class="calculator">
-        <div class="calculator-screen">
-            <div class="calculator-display" id="display">0</div>
+    <div class="calculadora">
+        <input class="pantalla" id="pantalla">0</div>
+        <div class="botones">
+            <button class="boton" onclick="agregarCaracter('7')">7</button>
+            <button class="boton" onclick="agregarCaracter('8')">8</button>
+            <button class="boton" onclick="agregarCaracter('9')">9</button>
+            <button class="boton" onclick="agregarCaracter('/')">/</button>
+            <button class="boton" onclick="agregarCaracter('4')">4</button>
+            <button class="boton" onclick="agregarCaracter('5')">5</button>
+            <button class="boton" onclick="agregarCaracter('6')">6</button>
+            <button class="boton" onclick="agregarCaracter('*')">*</button>
+            <button class="boton" onclick="agregarCaracter('1')">1</button>
+            <button class="boton" onclick="agregarCaracter('2')">2</button>
+            <button class="boton" onclick="agregarCaracter('3')">3</button>
+            <button class="boton" onclick="agregarCaracter('-')">-</button>
+            <button class="boton" onclick="agregarCaracter('0')">0</button>
+            <button class="boton" onclick="agregarCaracter('.')">.</button>
+            <button class="boton boton-igual" onclick="calcular()">=</button>
+            <button class="boton" onclick="agregarCaracter('+')">+</button>
         </div>
-        <div class="buttons">
-            <button class="one" onclick="numberClick('1')">1</button>
-            <button class="one" onclick="numberClick('2')">2</button>
-            <button class="one" onclick="numberClick('3')">3</button>
-            <button class="one operator" onclick="operatorClick('+')">+</button>
-
-            <button class="one" onclick="numberClick('4')">4</button>
-            <button class="one" onclick="numberClick('5')">5</button>
-            <button class="one" onclick="numberClick('6')">6</button>
-            <button class="one operator" onclick="operatorClick('-')">-</button>
-
-            <button class="one" onclick="numberClick('7')">7</button>
-            <button class="one" onclick="numberClick('8')">8</button>
-            <button class="one" onclick="numberClick('9')">9</button>
-            <button class="one operator" onclick="operatorClick('*')">*</button>
-
-            <button class="one" onclick="numberClick('0')">0</button>
-            <button class="one" onclick="clearDisplay()">C</button>
-            <button class="one" onclick="deleteLast()">DEL</button>
-            <button class="one operator" onclick="operatorClick('/')">/</button>
-
-            <button class="one equals" onclick="calculate()">=</button>
-        </div>
+        <button class="boton" onclick="limpiar()">C</button>
     </div>
-    <script>
-        let currentInput = "0";
-        let currentOperator = "";
-        let screen = document.getElementById("display");
 
-        function numberClick(number) {
-            if (currentInput === "0") {
-                currentInput = number;
-            } else {
-                currentInput += number;
-            }
-            screen.textContent = currentInput;
-        }
-
-        function operatorClick(operator) {
-            if (currentInput !== "0") {
-                currentOperator = operator;
-                currentInput += operator;
-                screen.textContent = currentInput;
-            }
-        }
-
-        function clearDisplay() {
-            currentInput = "0";
-            screen.textContent = currentInput;
-        }
-
-        function deleteLast() {
-            currentInput = currentInput.slice(0, -1) || "0";
-            screen.textContent = currentInput;
-        }
-
-        function calculate() {
-            try {
-                currentInput = eval(currentInput).toString();
-                screen.textContent = currentInput;
-            } catch (e) {
-                screen.textContent = "Error";
-            }
-        }
-    </script>
+    <script src="calculadora.js"></script>
 </body>
 </html>
