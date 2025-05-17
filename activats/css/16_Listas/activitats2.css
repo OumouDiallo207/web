@@ -1,9 +1,0 @@
-.heart-list {
-    list-style: none;
-    font-size: 20px;
-}
-
-.heart-list li::before {
-    content: "❤️";
-    margin-right: 10px;
-}
