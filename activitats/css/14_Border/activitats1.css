@@ -1,0 +1,6 @@
+.bordered {
+    border:4px ; 
+    display: block; 
+    margin: 20px auto; 
+    width: 150px; 
+}

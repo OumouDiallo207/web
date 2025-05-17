@@ -1,0 +1,8 @@
+.bordered {
+    border: 6px solid red; 
+    border-radius: 20px; 
+    display: block;
+    margin: 20px auto;
+    width: 150px; 
+    padding: 10px; 
+}
