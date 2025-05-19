@@ -1,0 +1,48 @@
+body {
+    background-color: #87CEEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.noria {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: relative;
+    animation: girar 10s linear infinite;
+}
+
+.centro {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cabina {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.cabina:nth-child(1) { top: -15px; left: 50%; transform: translateX(-50%); }
+.cabina:nth-child(2) { top: 25px; right: -15px; }
+.cabina:nth-child(3) { bottom: 25px; right: -15px; }
+.cabina:nth-child(4) { bottom: -15px; left: 50%; transform: translateX(-50%); }
+.cabina:nth-child(5) { bottom: 25px; left: -15px; }
+.cabina:nth-child(6) { top: 25px; left: -15px; }
+
+@keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
