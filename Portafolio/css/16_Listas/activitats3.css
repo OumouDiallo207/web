@@ -1,0 +1,29 @@
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.nav-menu li {
+    border-bottom: 2px solid black;
+}
+
+.nav-menu li:last-child {
+    border-bottom: none;
+}
+
+.nav-menu a {
+    display: block;
+    text-decoration: none;
+    background-color: #4A7D89;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #2E545D;
+}

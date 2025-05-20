@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.actividad {
+    background: white;
+    padding: 15px;
+    border-left: 5px solid orange;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: orange;
+    margin: 0;
+}
+
+.imagen-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    transition: filter 0.3s ease-in-out;
+}
+
+.imagen:hover {
+    filter: invert(100%);
+}

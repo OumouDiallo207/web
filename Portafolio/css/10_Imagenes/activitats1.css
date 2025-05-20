@@ -1,0 +1,33 @@
+.img1 {
+    height: 100px; 
+    width: 100px; 
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    }
+ .nom  {
+        color: green;
+    
+    }
+    
+    
+    .yo{
+        color: black;
+        background-color: white;
+    }
+    
+    .tu {
+        color:black;
+        background-color:  white;}
+        
+    .img2 {
+            height: 150px; 
+            width: 150px; 
+            aspect-ratio:1 / 1;
+            object-fit: cover;
+            object-position: center;
+            
+            }
+   
+    
