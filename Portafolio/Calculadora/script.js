@@ -3,7 +3,7 @@ const botoNumeros = document.querySelectorAll('.numero');
 const botoOperadors = document.querySelectorAll('.operador');
 const botoIgual = document.getElementById('igual');
 const botoNetejar = document.getElementById('netejar');
-
+const botoDEL = document.getElementById('del');
 let valorAnterior = '';
 let operadorSeleccionat = '';
 let operacioActual = '';
@@ -45,6 +45,11 @@ botoIgual.addEventListener('click', () => {
 
 botoNetejar.addEventListener('click', () => {
   pantalla.textContent = '0';
+  valorAnterior = '';
+  operadorSeleccionat = '';
+});
+botoDEL.addEventListener('click', () => {
+  pantalla.textContent =pantalla.textContent.slice(0,-1) || '0';
   valorAnterior = '';
   operadorSeleccionat = '';
 });
